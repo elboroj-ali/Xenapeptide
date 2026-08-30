@@ -1,0 +1,79 @@
+{
+  "brand": "XENA PEPTIDE",
+  "currency": "€",
+  "discountLabel": "SPECIAL OFFER",
+  "products": [
+    {
+      "id": "tesamorelin-10mg",
+      "name": "Tesamorelin",
+      "amount": "10 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/tesamorelin.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "mots-c-10mg",
+      "name": "MOTS-C",
+      "amount": "10 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/mots-c.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "epithalon-10mg",
+      "name": "Epithalon",
+      "amount": "10 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/epithalon.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "slu-pp-332-5mg",
+      "name": "SLU-PP-332",
+      "amount": "5 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/slu-pp-332.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "ghk-cu-100mg",
+      "name": "GHK-CU",
+      "amount": "100 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/ghk-cu-100.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "ghk-cu-50mg",
+      "name": "GHK-CU",
+      "amount": "50 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/ghk-cu-50.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "igf1-lr3-1mg",
+      "name": "IGF1 LR3",
+      "amount": "1 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/igf1-lr3.jpg",
+      "badge": "Research"
+    },
+    {
+      "id": "pt141-10mg",
+      "name": "PT141",
+      "amount": "10 mg",
+      "price": 0,
+      "discount": 0,
+      "image": "images/pt141.jpg",
+      "badge": "Research"
+    }
+  ]
+}
