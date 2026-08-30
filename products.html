@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Products | XENA PEPTIDE</title><link rel="stylesheet" href="styles.css"><style>
+.purity-line{font-size:12px;font-weight:800;color:#b8891d;margin:7px 12px 12px}
+</style></head><body>
+<header><a class="logo" href="index.html">🧬 <b>XENA</b><span>PEPTIDE</span></a><nav><a href="index.html">HOME</a><a class="active" href="products.html">PRODUCTS</a><a href="research.html">RESEARCH</a><a href="about.html">ABOUT</a><a href="contact.html">CONTACT</a></nav><a class="cart" href="products.html">🛒 <i id="count">0</i></a></header>
+<section class="page"><small>CATALOG</small><h1>Research Products</h1><p>Product specifications and pricing. Research use only.</p></section><section class="section"><div class="tools"><input id="search" placeholder="Search products..." oninput="render()"><select id="sort" onchange="render()"><option value="">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div><div id="catalog" class="grid four"></div></section><footer>🧬 <b>XENA PEPTIDE</b><span>Research use only.</span></footer><script src="script.js"></script>
+<script>
+document.querySelectorAll('.product-card, .card').forEach(card => {
+  if (!card.querySelector('.purity-line')) {
+    const line = document.createElement('div');
+    line.className = 'purity-line';
+    line.textContent = 'Over 99% purity';
+    card.appendChild(line);
+  }
+});
+</script>
+</body></html>

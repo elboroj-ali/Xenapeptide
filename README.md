@@ -17,3 +17,7 @@ Static responsive website package for GitHub Pages.
 Upload the contents of this folder to the root of your repository. Keep the `images` folder beside the HTML files so all image paths continue to work.
 
 This package is a static front-end only. It contains no server, database, payment processing, or checkout system.
+
+
+## Product presentation
+Retatrutide is presented as a single fixed 10 mg option on the product-detail page. Product cards use the supplied XENA PEPTIDE visual identity.
