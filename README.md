@@ -1,23 +1,18 @@
-# XenaPeptide Website
+# XENA PEPTIDE
 
-Static responsive website package for GitHub Pages.
+Professional responsive research-use-only catalogue for XENA PEPTIDE.
 
-## Structure
-- `index.html` — home page
-- `products.html` — product catalogue
-- `research.html` — research / quality information
-- `about.html` — brand information
-- `contact.html` — contact page
-- `products.json` — catalogue data
-- `styles.css` — site styling
-- `script.js` — front-end behavior
-- `images/` — product imagery
+## Features
+- XENA PEPTIDE navy / gold / white visual identity.
+- Product catalogue with dedicated product-detail pages.
+- Every product has a "What is it?" and research-focus section.
+- Direct WhatsApp and Telegram contact on every product page.
+- No online checkout or payment flow.
+- Responsive mobile layout.
 
-## GitHub Pages
-Upload the contents of this folder to the root of your repository. Keep the `images` folder beside the HTML files so all image paths continue to work.
+Contact:
+- WhatsApp: +49 1521 6767415
+- Telegram: https://t.me/xenapeptide
+- Email: info@xenapeptide.com
 
-This package is a static front-end only. It contains no server, database, payment processing, or checkout system.
-
-
-## Product presentation
-Retatrutide is presented as a single fixed 10 mg option on the product-detail page. Product cards use the supplied XENA PEPTIDE visual identity.
+All product information is presented for research-use-only purposes. Not for human consumption.
