@@ -1,18 +1,19 @@
-# XENA PEPTIDE
+XENA PEPTIDE — FINAL 27 PRODUCT RESEARCH CATALOG
 
-Professional responsive research-use-only catalogue for XENA PEPTIDE.
+Files included:
+- index.html
+- products are rendered dynamically from data.js
+- product.html for individual product research pages
+- research.html
+- about.html
+- contact.html
+- styles.css
+- script.js
+- data.js
+- images/xena-logo.jpg
+- images/products/01-product.jpg through 27-product.jpg
 
-## Features
-- XENA PEPTIDE navy / gold / white visual identity.
-- Product catalogue with dedicated product-detail pages.
-- Every product has a "What is it?" and research-focus section.
-- Direct WhatsApp and Telegram contact on every product page.
-- No online checkout or payment flow.
-- Responsive mobile layout.
+Important:
+This version is structured as a research/information catalogue. It does not include checkout, payment processing, or purchase instructions.
 
-Contact:
-- WhatsApp: +49 1521 6767415
-- Telegram: https://t.me/xenapeptide
-- Email: info@xenapeptide.com
-
-All product information is presented for research-use-only purposes. Not for human consumption.
+Catalog updated to 28 products: #28 Tirzepatide 10 mg. Price intentionally not added yet.
