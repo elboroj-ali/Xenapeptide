@@ -56,30 +56,61 @@
 
     const navHtml = nav.map(item=>{
       const isActive = item.id===active ? ' active' : '';
+
       if(item.dropdown){
         return `<span class="has-menu"><a class="${isActive.trim()}" href="${item.href}">${item.label}${ICONS.caret}</a><div class="dropdown">${item.dropdown}</div></span>`;
       }
+
       return `<a class="${isActive.trim()}" href="${item.href}">${item.label}</a>`;
     }).join('');
 
     return `
 <div class="top">
   <span class="warn">FOR RESEARCH PURPOSES ONLY<span class="sep">|</span>NOT FOR HUMAN CONSUMPTION</span>
+
   <div class="top-links">
-    <a href="https://wa.me/491521676741" target="_blank" rel="noopener">${ICONS.whatsapp}WhatsApp</a>
-    <a href="https://t.me/XenaPeptide" target="_blank" rel="noopener">${ICONS.telegram}Telegram</a>
-    <a href="contact.html">${ICONS.ship}Worldwide Shipping</a>
+    <a href="https://wa.me/4915216767415" target="_blank" rel="noopener">
+      ${ICONS.whatsapp}WhatsApp
+    </a>
+
+    <a href="https://t.me/XenaPeptide" target="_blank" rel="noopener">
+      ${ICONS.telegram}Telegram
+    </a>
+
+    <a href="contact.html">
+      ${ICONS.ship}Worldwide Shipping
+    </a>
   </div>
 </div>
+
 <header>
-  <a class="brand" href="index.html"><img class="brand-icon" src="images/xena-icon-transparent.png" alt=""><img class="brand-wordmark" src="images/xena-text-transparent.png" alt="XENA PEPTIDE"></a>
+  <a class="brand" href="index.html">
+    <img class="brand-icon" src="images/xena-icon-transparent.png" alt="">
+    <img class="brand-wordmark" src="images/xena-text-transparent.png" alt="XENA PEPTIDE">
+  </a>
+
   <nav class="nav">${navHtml}</nav>
+
   <div class="icons">
-    <button type="button" aria-label="Search">${ICONS.search}</button>
-    <button type="button" aria-label="Account">${ICONS.user}</button>
-    <span class="cart-wrap"><a href="cart.html" aria-label="Basket">${ICONS.cart}</a><span class="cart-count">0</span></span>
+    <button type="button" aria-label="Search">
+      ${ICONS.search}
+    </button>
+
+    <button type="button" aria-label="Account">
+      ${ICONS.user}
+    </button>
+
+    <span class="cart-wrap">
+      <a href="cart.html" aria-label="Basket">
+        ${ICONS.cart}
+      </a>
+      <span class="cart-count">0</span>
+    </span>
   </div>
-  <button class="burger" type="button" aria-label="Menu" onclick="location.href='index.html#products'">${ICONS.burger}</button>
+
+  <button class="burger" type="button" aria-label="Menu" onclick="location.href='index.html#products'">
+    ${ICONS.burger}
+  </button>
 </header>`;
   }
 
@@ -90,8 +121,11 @@
   document.addEventListener('DOMContentLoaded', function(){
     const h = document.getElementById('site-header');
     const f = document.getElementById('site-footer');
+
     if(h) h.outerHTML = header(document.body.getAttribute('data-page'));
+
     if(f) f.outerHTML = footer();
+
     if(window.Cart) window.Cart.updateBadge();
   });
 })();
