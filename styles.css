@@ -402,3 +402,146 @@ footer{padding:26px;text-align:center;border-top:1px solid var(--line);color:#ae
   .bottom-strip{justify-content:center;text-align:center}
   .bs-items{justify-content:center}
 }
+/* =========================================================
+   XENA PEPTIDE — PREMIUM BIOTECH BACKGROUND
+   ========================================================= */
+
+body{
+  background:
+    radial-gradient(circle at 50% 0%, rgba(18,67,108,.55), transparent 38%),
+    radial-gradient(circle at 0% 50%, rgba(8,55,95,.40), transparent 38%),
+    radial-gradient(circle at 100% 50%, rgba(8,48,88,.38), transparent 38%),
+    linear-gradient(180deg,#010812 0%,#03182c 48%,#010a14 100%);
+}
+
+/* HERO BACKGROUND */
+.hero{
+  position:relative;
+  overflow:hidden;
+
+  background:
+    radial-gradient(circle at 50% 25%,rgba(20,75,120,.42),transparent 42%),
+    radial-gradient(circle at 15% 55%,rgba(8,62,105,.35),transparent 35%),
+    radial-gradient(circle at 85% 55%,rgba(8,58,100,.32),transparent 35%),
+    linear-gradient(180deg,#020a14 0%,#051a30 52%,#020a14 100%);
+}
+
+/* BLUE SCIENTIFIC PARTICLES + MOLECULAR NETWORK */
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+
+  background:
+    /* molecular nodes */
+    radial-gradient(circle at 7% 28%,rgba(110,190,245,.9) 0 2px,transparent 3px),
+    radial-gradient(circle at 17% 17%,rgba(90,170,230,.8) 0 2px,transparent 3px),
+    radial-gradient(circle at 25% 34%,rgba(120,205,250,.85) 0 2px,transparent 3px),
+    radial-gradient(circle at 12% 48%,rgba(80,160,220,.75) 0 2px,transparent 3px),
+    radial-gradient(circle at 22% 64%,rgba(100,185,240,.8) 0 2px,transparent 3px),
+
+    radial-gradient(circle at 76% 22%,rgba(110,190,245,.9) 0 2px,transparent 3px),
+    radial-gradient(circle at 87% 15%,rgba(130,205,250,.85) 0 2px,transparent 3px),
+    radial-gradient(circle at 94% 34%,rgba(90,175,230,.8) 0 2px,transparent 3px),
+    radial-gradient(circle at 82% 43%,rgba(120,200,245,.85) 0 2px,transparent 3px),
+    radial-gradient(circle at 91% 61%,rgba(90,170,225,.8) 0 2px,transparent 3px),
+    radial-gradient(circle at 77% 72%,rgba(110,190,240,.75) 0 2px,transparent 3px),
+
+    /* connecting lines */
+    linear-gradient(28deg,transparent 48%,rgba(55,125,180,.20) 49%,rgba(55,125,180,.20) 50%,transparent 51%),
+    linear-gradient(-25deg,transparent 48%,rgba(55,125,180,.18) 49%,rgba(55,125,180,.18) 50%,transparent 51%),
+
+    /* tiny particles */
+    radial-gradient(1px 1px at 5% 10%,rgba(180,225,250,.8),transparent 2px),
+    radial-gradient(1px 1px at 30% 18%,rgba(130,200,240,.7),transparent 2px),
+    radial-gradient(1px 1px at 42% 12%,rgba(150,210,245,.7),transparent 2px),
+    radial-gradient(1px 1px at 58% 18%,rgba(130,195,235,.7),transparent 2px),
+    radial-gradient(1px 1px at 68% 10%,rgba(160,215,245,.8),transparent 2px),
+    radial-gradient(1px 1px at 96% 12%,rgba(160,215,245,.8),transparent 2px),
+    radial-gradient(1px 1px at 6% 78%,rgba(130,200,240,.65),transparent 2px),
+    radial-gradient(1px 1px at 94% 82%,rgba(130,200,240,.65),transparent 2px);
+
+  opacity:.9;
+}
+
+
+/* LARGE DNA-LIKE GLOW ON LEFT */
+.hero::after{
+  content:"";
+  position:absolute;
+  z-index:0;
+  pointer-events:none;
+
+  left:-120px;
+  top:50%;
+  transform:translateY(-50%) rotate(-8deg);
+
+  width:430px;
+  height:620px;
+
+  opacity:.65;
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(55,145,215,.25) 0%,
+      rgba(20,85,135,.16) 32%,
+      transparent 68%
+    );
+
+  filter:blur(8px);
+}
+
+
+/* KEEP CONTENT ABOVE BACKGROUND */
+.hero-copy,
+.hero-product{
+  position:relative;
+  z-index:3;
+}
+
+
+/* GOLD PREMIUM DETAILS */
+.hero-copy .goldline{
+  color:#f1cc78;
+  text-shadow:0 0 12px rgba(241,204,120,.15);
+}
+
+.hero-copy p.lead{
+  color:#dce7f0;
+}
+
+
+/* PREMIUM BLUE PRODUCT AREA */
+.products{
+  background:
+    radial-gradient(circle at 50% 0%,rgba(12,58,96,.35),transparent 45%),
+    linear-gradient(180deg,#020b15,#04182c,#020b15);
+}
+
+
+/* MOBILE */
+@media(max-width:700px){
+
+  .hero{
+    background:
+      radial-gradient(circle at 50% 18%,rgba(20,75,120,.48),transparent 45%),
+      radial-gradient(circle at 0% 50%,rgba(8,58,100,.30),transparent 40%),
+      radial-gradient(circle at 100% 55%,rgba(8,52,92,.28),transparent 40%),
+      linear-gradient(180deg,#020a14,#05192d 55%,#020a14);
+  }
+
+  .hero::after{
+    left:-180px;
+    width:380px;
+    height:580px;
+    opacity:.48;
+  }
+
+  .hero-copy,
+  .hero-product{
+    z-index:3;
+  }
+}
